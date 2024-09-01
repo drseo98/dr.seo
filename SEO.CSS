@@ -1,0 +1,137 @@
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    line-height: 1.6;  
+}  
+
+header {  
+    background: #000000;  
+    color: #fff;  
+    padding: 1rem 0;  
+    text-align: center;  
+}  
+
+nav ul {  
+    list-style-type: none;  
+    padding: 0;  
+}  
+
+nav ul li {  
+    display: inline;  
+    margin: 0 15px;  
+}  
+
+nav ul li a {  
+    color: white;  
+    text-decoration: none;  
+}  
+
+section {  
+    padding: 20px;  
+    margin: 20px;  
+    border: 1px solid #ddd;  
+}  
+
+h2 {  
+    color: #ffffff;  
+}  
+
+.cta-button {  
+    background: #007bff;  
+    color: white;  
+    padding: 10px 20px;  
+    text-decoration: none;  
+    border-radius: 5px;  
+}  
+
+form {  
+    display: flex;  
+    flex-direction: column;  
+}  
+
+label {  
+    margin-top: 10px;  
+}  
+
+input, textarea {  
+    padding: 10px;  
+    margin-top: 5px;  
+    border: 1px solid #ccc;  
+    border-radius: 4px;  
+}  
+
+button {  
+    margin-top: 10px;  
+    padding: 10px;  
+    background: #007bff;  
+    color: white;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+}  
+
+footer {  
+    text-align: center;  
+    padding: 20px;  
+    background: #333;  
+    color: white;  
+}  
+
+footer a {  
+    color: #fff;  
+}  
+img{
+    height: 200px;
+    width: auto;
+}
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#myVideo {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+p{
+    color: #ffffff;
+}
+.logo {
+    position:absolute;
+   top:0px;
+    left:0%;
+    width: 220px;
+    height: 200px;
+  }
+  ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #020202;
+}
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    content: "/\00a0"; /* Add a slash symbol (/) before each list item */
+}
+ul.breadcrumb li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+.blog-container {
+    display: flex;
+    justify-content: space-between; /* Distributes items evenly */
+}
